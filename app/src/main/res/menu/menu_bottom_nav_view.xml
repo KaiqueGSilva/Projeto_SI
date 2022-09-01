@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mDocumentos"
+        android:icon="@drawable/ic_baseline_menu_book"
+        android:title="Documentos"
+        />
+
+    <item
+        android:id="@+id/mPaginaInicial"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Página Inicial" />
+
+    <item
+        android:id="@+id/mSobre"
+        android:icon="@drawable/ic_baseline_info"
+        android:title="Sobre Nós" />
+
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idCardDoc"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp"
+    android:background="#8339471B"
+    android:gravity="center_horizontal"
+    android:contentDescription="modelo documentos"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgModelo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/security_um" />
+
+    <TextView
+        android:id="@+id/modeloTxtImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Segurança"
+        android:textColor="#ffff"
+        android:textSize="22sp" />
+
+</LinearLayout>

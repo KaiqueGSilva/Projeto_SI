@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bannertreis"
+    tools:context=".SobreFragment">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5C000000">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bannerbranco"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="540dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strong Innovation"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="190sp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="250sp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Somos um grupo de cinco estudantes com o objetivo de transformar a educação tivemos, a ideia de ajudar pessoas que querem se desenvolver em diversas áreas relacionada a tecnologia, trazendo conhecimento de forma gratuita."
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

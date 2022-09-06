@@ -3,12 +3,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/bannerdois"
+    android:orientation="horizontal"
     tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/bannerbranco" />
+
+
+    </LinearLayout>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HOME"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200sp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Referência no aprendizado"
+        android:textColor="#ffff"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240sp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="de tecnologia"
+        android:textColor="#ffff"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300sp"
+        android:fontFamily="@font/poppins_medium"
+        android:justificationMode="inter_word"
+        android:text="Somos uma empresa focada em tecnologia, com ideia de proporcionar conhecimento ao publico"
+        android:textColor="#ffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSite"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/botaodois"
+        android:clickable="true"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Visite nosso site!"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
 
 </FrameLayout>

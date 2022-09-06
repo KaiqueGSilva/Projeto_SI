@@ -22,6 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="50sp"
+            android:fontFamily="@font/poppins_medium"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="120sp"
             android:text="Strong Innovation"
@@ -33,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:fontFamily="@font/poppins_medium"
             android:layout_marginBottom="350sp"
             android:text="Technology and Information"
             android:textColor="#FFFFFF"
@@ -94,6 +96,7 @@
             android:background="@drawable/botaodois"
             android:clickable="true"
             android:text="Cadastrar"
+            android:fontFamily="@font/poppins_medium"
             android:textAllCaps="false"
             android:textStyle="bold" />
 

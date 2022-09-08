@@ -22,9 +22,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="50sp"
-            android:fontFamily="@font/poppins_medium"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="120sp"
+            android:fontFamily="@font/poppins_medium"
             android:text="Strong Innovation"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -34,8 +34,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/poppins_medium"
             android:layout_marginBottom="350sp"
+            android:fontFamily="@font/poppins_medium"
             android:text="Technology and Information"
             android:textColor="#FFFFFF"
             android:textSize="25sp" />
@@ -64,7 +64,7 @@
             android:inputType="textPersonName"
             android:maxLength="50" />
 
-        <EditText
+        <com.santalu.maskara.widget.MaskEditText
             android:id="@+id/edtCadTel"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
@@ -73,7 +73,10 @@
             android:background="@drawable/botao"
             android:drawableRight="@drawable/ic_baseline_phone"
             android:hint="Telefone"
-            android:inputType="phone" />
+            android:inputType="number"
+            app:mask="(__) _____-____"
+            app:maskCharacter="_"
+            app:maskStyle="completable" />
 
         <EditText
             android:id="@+id/edtCadSenha"
@@ -95,8 +98,8 @@
             android:layout_marginTop="580dp"
             android:background="@drawable/botaodois"
             android:clickable="true"
-            android:text="Cadastrar"
             android:fontFamily="@font/poppins_medium"
+            android:text="Cadastrar"
             android:textAllCaps="false"
             android:textStyle="bold" />
 

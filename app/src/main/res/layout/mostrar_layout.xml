@@ -16,7 +16,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginBottom="15dp"
         android:scaleType="fitXY"
-        android:src="@drawable/security_um" />
+        android:src="@drawable/seguranca" />
 
     <TextView
         android:id="@+id/txtMostrarTitulo"
@@ -25,7 +25,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="340dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="Segurança"
+        android:text="Segurança da Informação"
         android:textColor="#fff"
         android:textSize="24sp"
         android:textStyle="bold" />

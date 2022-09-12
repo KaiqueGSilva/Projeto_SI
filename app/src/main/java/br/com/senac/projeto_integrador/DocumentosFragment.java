@@ -22,8 +22,8 @@ public class DocumentosFragment extends Fragment {
     ListView lstModDocumentos;
 
     //Criando os dados para a lista
-    String modeloTxtImg[] = {"Segurança", "Suporte Técnico", "Programação", "Segurança da Informação"};
-    int imgModelo[] = {R.drawable.security_um, R.drawable.suporte, R.drawable.programacao, R.drawable.seguranca};
+    String modeloTxtImg[] = {"Segurança da Informação", "Suporte Técnico", "Programação", "Programação Mobile"};
+    int imgModelo[] = {R.drawable.seguranca, R.drawable.suporte, R.drawable.programacao, R.drawable.programador_mobile};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,8 +47,6 @@ public class DocumentosFragment extends Fragment {
                 Intent intent = new Intent(getActivity(),MostrarActivity.class);
 
                 startActivity(intent);
-
-
 
             }
         });
@@ -79,18 +77,13 @@ public class DocumentosFragment extends Fragment {
             ImageView imgModModelo;
             TextView modeloModImg;
 
-
-
             View v = getLayoutInflater().inflate(R.layout.modelo_layout, null);
 
             imgModModelo = v.findViewById(R.id.imgModelo);
             modeloModImg = v.findViewById(R.id.modeloTxtImg);
 
-
-
             imgModModelo.setImageResource(imgModelo[position]);
             modeloModImg.setText(modeloTxtImg[position]);
-
 
             return v;
 

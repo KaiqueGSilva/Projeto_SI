@@ -7,6 +7,20 @@
     android:background="#7352AC"
     tools:context=".MostrarActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/idToolbar"
+            style="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back"
+            app:title="Strong Innovation" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
 
     <ImageView
         android:id="@+id/imgMostrarImagem"

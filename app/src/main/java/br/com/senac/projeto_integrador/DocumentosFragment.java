@@ -23,7 +23,16 @@ public class DocumentosFragment extends Fragment {
 
     //Criando os dados para a lista
     String modeloTxtImg[] = {"Segurança da Informação", "Suporte Técnico", "Programação", "Programação Mobile"};
+
     int imgModelo[] = {R.drawable.seguranca, R.drawable.suporte, R.drawable.programacao, R.drawable.programador_mobile};
+
+    String modeloTexto[] = {"A segurança da informação, às vezes abreviada para InfoSec, é a prática de proteger as informações mitigando os riscos das informações. Faz parte da gestão de risco da informação.",
+
+            "O suporte técnico é um serviço prestado pelas empresas para aconselhar e auxiliar os usuários cadastrados em questões relativas aos seus produtos técnicos.",
+
+            "A programação de computadores é o processo de realizar uma computação específica, geralmente projetando e construindo um programa de computador executável.",
+
+            "Executa a manutenção dos sistemas, fazendo eventuais correções necessárias, visando atender às necessidades dos usuários. Desenvolve trabalhos de montagem, depuração e testes de programas, executando serviços de manutenção nos programas já desenvolvidos."};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -44,7 +53,13 @@ public class DocumentosFragment extends Fragment {
                 //startActivity(new Intent(getContext(),MostrarActivity.class));
                 //Toast.makeText(getContext(),"passei aqui",Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(getActivity(),MostrarActivity.class);
+                Intent intent = new Intent(getActivity(), MostrarActivity.class);
+
+
+                intent.putExtra("titulo", modeloTxtImg[position]);
+                intent.putExtra("texto", modeloTexto[position]);
+                intent.putExtra("imagem", imgModelo[position]);
+
 
                 startActivity(intent);
 

@@ -34,7 +34,7 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="250sp"
+            android:layout_marginTop="165sp"
             android:fontFamily="@font/poppins_medium"
             android:text="Somos um grupo de cinco estudantes com o objetivo de transformar a educação tivemos, a ideia de ajudar pessoas que querem se desenvolver em diversas áreas relacionada a tecnologia, trazendo conhecimento de forma gratuita."
             android:textAlignment="center"
